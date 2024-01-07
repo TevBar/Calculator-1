@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+
+.result {
+  height: 60px;
+  background-color: #bbb;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+body { 
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right,#00AAFF,#00FF6C);
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  background-color: #bbb;
+  border: 1px solid #fff;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
