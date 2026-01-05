@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+Calculator App
+A responsive, accessible, and fully‑functional calculator built with modern front‑end development practices. This project goes beyond a basic four‑function calculator by emphasizing clean component architecture, state management, and user‑focused interaction design. It serves as a demonstration of my ability to build polished, production‑ready interfaces using React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+Core arithmetic operations  
+Supports addition, subtraction, multiplication, and division with real‑time expression evaluation.
 
-## Available Scripts
+Chained calculations  
+Users can continue performing operations without resetting the calculator, mirroring real device behavior.
 
-In the project directory, you can run:
+Clear and delete functionality  
+Includes “AC” (all clear) and “DEL” (delete last input) for intuitive error correction.
 
-### `npm start`
+Responsive layout  
+Designed to adapt smoothly across desktop, tablet, and mobile screens.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Keyboard support  
+Users can interact using either on‑screen buttons or their keyboard for faster input.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Error handling  
+Prevents invalid expressions, division by zero, and malformed input sequences.
 
-### `npm test`
+Component‑driven architecture  
+Built with reusable React components and clear separation of logic and UI.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🧠 Technical Highlights
+React functional components with hooks for state and event handling
 
-### `npm run build`
+Custom calculation logic that parses and evaluates expressions safely
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+CSS grid layout for clean, scalable button arrangement
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Modular file structure for maintainability and readability
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+User‑centric interaction design inspired by physical calculator behavior
 
-### `npm run eject`
+🚀 Why This Project Matters
+Although a calculator may seem simple at first glance, building one correctly requires careful attention to:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+State transitions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Input validation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Edge‑case handling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+UI responsiveness
 
-## Learn More
+Consistent user experience
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+These are the same skills front‑end developers use when building real‑world applications. This project demonstrates my ability to translate requirements into a clean, reliable, and user‑friendly interface.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📦 Installation
+bash
+git clone https://github.com/TevBar/Calculator-1
+cd calculator
+npm install
+npm start
+🖼️ Project Structure
+Folder / File	Description
+src/components	Reusable UI components (buttons, display, layout)
+src/App.js	Main application logic and state management
+src/styles	Modular CSS for layout and responsiveness
+public	Static assets and root HTML
